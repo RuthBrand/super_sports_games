@@ -10,14 +10,14 @@ In this project, we are going to need to find the standard deviation of an array
 
 Step | Description | Operation | Result
 --- | --- | ---- | ---
-0 | input | | [24, 30, 18, 20, 41]
+<!-- 0 | input | | [24, 30, 18, 20, 41]
 1 | sum all the integers | 24 + 30 + 18 + 20 + 41 | 133
-2 | find the number of integers in the input array | | 5 |
-3 | divide the sum of the integers (step 1) by the number of integers (step 2). This is the average (also known as the mean). | 133 / 5 | 26.6
-4 | subtract each integer by the average found in step 3 | [24 - 26.6, 30 - 26.6, 18 - 26.6, 20 - 26.6, 41 - 26.6] | [-2.6, 3.4, -8.6, -6.6, 14.4]
-5 | Take the result from step 4 and square each number | [-2.6 ^ 2, 3.4 ^ 2, -8.6 ^ 2, -6.6 ^ 2, 14.4 ^ 2] | [6.76, 11.56, 73.96, 43.56, 207.36]
-6 | sum all the numbers from step 5 | 6.76 + 11.56 + 73.96 + 43.56 + 207.36 | 343.2
-7 | divide the result from step 6 by the number of integers (step 2) | 343.2 / 5 | 68.64
+2 | find the number of integers in the input array | | 5 | -->
+<!-- 3 | divide the sum of the integers (step 1) by the number of integers (step 2). This is the average (also known as the mean). | 133 / 5 | 26.6 -->
+<!-- 4 | subtract each integer by the average found in step 3 | [24 - 26.6, 30 - 26.6, 18 - 26.6, 20 - 26.6, 41 - 26.6] | [-2.6, 3.4, -8.6, -6.6, 14.4] -->
+<!-- 5 | Take the result from step 4 and square each number | [-2.6 ^ 2, 3.4 ^ 2, -8.6 ^ 2, -6.6 ^ 2, 14.4 ^ 2] | [6.76, 11.56, 73.96, 43.56, 207.36] -->
+<!-- 6 | sum all the numbers from step 5 | 6.76 + 11.56 + 73.96 + 43.56 + 207.36 | 343.2 -->
+<!-- 7 | divide the result from step 6 by the number of integers (step 2) | 343.2 / 5 | 68.64 -->
 8 | take the square root of the result from step 7 | sqrt(68.64) | 8.28
 
 # Assignment
@@ -40,7 +40,7 @@ ages = [24, 30, 18, 20, 41]
 # When you find the standard deviation, print it out
 ```
 
-Write code to find the standard deviation and print it to the screen. (You should not use any built-in code or gems for finding the standard deviation or average)
+<!-- Write code to find the standard deviation and print it to the screen. (You should not use any built-in code or gems for finding the standard deviation or average)
 
 ## Iteration 2 - Event Class
 
@@ -80,11 +80,11 @@ pry(main)> event.standard_deviation_age
 #=> 8.28
 ```
 
-Also, if the previous criteria are met, the `games_test.rb` test should pass.
+Also, if the previous criteria are met, the `games_test.rb` test should pass. -->
 
-## Iteration 3 - Testing
+<!-- ## Iteration 3 - Testing
 
-Write tests for your `Event` class that cover that expected behavior described in the previous iteration.
+Write tests for your `Event` class that cover that expected behavior described in the previous iteration. -->
 
 ## Iteration 4 - Extensions
 
