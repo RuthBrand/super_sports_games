@@ -1,9 +1,11 @@
 module StandardDeviation
 
-  def standard_deviation_age  
+  def standard_deviation_age
+
+    average = ages.sum.to_f / ages.length
 
     subtracted = ages.map do |age|
-      age - average_age
+      age - average
     end
 
     rounded_numbers = subtracted.map do |number|

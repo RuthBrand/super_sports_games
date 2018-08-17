@@ -25,5 +25,3 @@ class Event
   end
 
 end
-
-event = Event.new("Curling", [24, 30, 18, 20, 41])
